@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <title>NTU-Utils 台大校網工具包</title>
+  <meta property="og:title" content="NTU-Utils 台大校網工具包" />
   <link href="vendor/foundation.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -18,8 +19,13 @@
         <h3>課程表自動收納器</h3>
         <a href="screenshots/course-reflow.png" class="th radius"><img src="screenshots/course-reflow.png" alt="摺疊範例" /></a>
         <p>同一時段太多課程擠爆了課程表？把臃腫的課程表折起來吧。</p>
-        <p>將底下的按鈕拖曳到書籤列，切換到選課網的課程表頁面，再按一下書籤列的按鈕。將將！</p>
-        <a class="radius button" href="javascript:(function()%7Bs%3Ddocument.createElement(%27script%27)%3Bs.src%3D%27//raw.github.com/rschiang/ntu-utils/master/coursetable_reflow.js%27%3Bs.type%3D%27text/javascript%27%3Bdocument.body.appendChild(s)%3B%7D)()%3B">將我拖到書籤列</a>
+        <ol>
+          <li>將右邊的按鈕拖曳到書籤列。 
+            <a class="radius small button" href="javascript:(function()%7Bs%3Ddocument.createElement(%27script%27)%3Bs.src%3D%27//raw.github.com/rschiang/ntu-utils/master/coursetable_reflow.js%27%3Bs.type%3D%27text/javascript%27%3Bdocument.body.appendChild(s)%3B%7D)()%3B">折疊課表</a>
+          </li>
+          <li>切換到選課網的課程表頁面。</li>
+          <li>按一下書籤列的按鈕。大功告成！</li>
+        </ol>
       </section>
     </div>
     <div class="large-6 columns">
